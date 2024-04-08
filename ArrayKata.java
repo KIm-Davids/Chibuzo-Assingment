@@ -2,10 +2,10 @@ public class ArrayKata {
 	
 	public static int maximumIn(int[] maximumIn) {
 
-	int max1 = 0;
+	int maximum = 0;
 	for(int count = 0; count<maximumIn.length;count++){
-		if(maximumIn[count] > max1){
-			max1 = maximumIn[count];
+		if(maximumIn[count] > maximum){
+			maximum = maximumIn[count];
 		}
 		
 	}
@@ -15,21 +15,20 @@ public class ArrayKata {
 
 	public static int minimumIn(int[] minimumIn) {
 	
-	int min1 = 0;
+	int minimum = 0;
 	
 	for(int count = 0; count < minimumIn.length; count++) {
-		if(minimumIn[count] < min1) {
-			min1 = minimumIn[count];
+		if(minimumIn[count] < minimum) {
+			minimum = minimumIn[count];
 		}
 	}
-		return min1;
+		return minimum;
 }
 
 
 
 	public static int sumOf(int[] sumOf) {
 	
-
 	int sum = 0;
 		
 	for(int count = 0; count < sumOf; count++) {
@@ -44,14 +43,11 @@ public class ArrayKata {
 	
 	public static int sumOfArrayOf(int[] sumOfArrayOf) {
 	
-	
-
 	int sum = 0;
-	
 
-	for(int index = 0; index < sumOfArrayOf.length; index++) {
+	for(int count = 0; count < sumOfArrayOf.length; count++) {
 	if(sumOfArrayOf % 2 == 0) {
-	 sumOfArrayOf[index];
+	 evenNumbers = sumOfArrayOf[count];
 	   }
 	sum += evenNumbers;
 
@@ -64,15 +60,13 @@ public class ArrayKata {
 
 	public static int sumOfOddNumbers(int [] sumOfOddNumbers) {
 	
-	int[] myArray = new int[sumOfOddNumbers];
-	
 	int oddNumbers = 0;
 	int sum = 0;
 	int sumOfOddNumbers = 0;
 	
-	for(int index = 0; index < sumOfOddNumbers; index++) {
-	if(sumOfOddNumbers[index] % 2 == 1) {
-	oddNumbers = sumOfOddNumbers[index];
+	for(int count = 0; count < sumOfOddNumbers; count++) {
+	if(sumOfOddNumbers[count] % 2 == 1) {
+	oddNumbers = sumOfOddNumbers[count];
 	}
 	sum += oddNumbers;
 
@@ -85,18 +79,18 @@ public class ArrayKata {
 	public static int maxAndMin(int[] maxAndMin) {
 	
 	
-	int max1 = maxAndMin[0];
-	int min1 = maxAndMin[0];
+	int maximum = maxAndMin[0];
+	int minimum = maxAndMin[0];
 	
-	for(index = 0; index < maxAndMin.length; index++) {
-	if(maxAndMin[index] > max1){
+	for(count = 0; count < maxAndMin.length; count++) {
+	if(maxAndMin[count] > max1){
 
-	max1=maxAndMin[index];
+	maximum = maxAndMin[count];
             }
 	else {
-	  max1 = maxAnMin[index];
+	  maximum = maxAnMin[count];
   	}
-         return max1;
+         return maximum;
 	}
 
 
@@ -106,9 +100,9 @@ public class ArrayKata {
 	int oddNumbers[];
 
 
-	for(index = 0; index < number.length; index++) {
+	for(count = 0; count < number.length; count++) {
 	
-	if(number[index] % 2 == 1) {
+	if(number[count] % 2 == 1) {
 	oddNUmbers++; 
 	}
 	}
@@ -122,9 +116,9 @@ public class ArrayKata {
 
 	int evenNumbers[];
 	
-	for(index = 0; index < number.length; index++) {
+	for(count = 0; count < number.length; count++) {
 
-	if(number[index] % 2 == 0) {
+	if(number[count] % 2 == 0) {
 	evenNumbers++;
 	}
 
@@ -138,10 +132,10 @@ public class ArrayKata {
 
 	int evenNumbers[];
 
-	for(index = 0; index < number.length; index++) {
+	for(count = 0; count < number.length; count++) {
 
-	if(number[index] % 2 == ) {
-		evenNumbers = evenNumber[index];
+	if(number[count] % 2 == ) {
+		evenNumbers = evenNumber[count];
 		}
 		}
 	return evenNumbers++;
@@ -154,9 +148,9 @@ public class ArrayKata {
 
 	int multiples[];
 
-	for(index = 0; index < number.length; index++) {
+	for(count = 0; count < number.length; count++) {
 	
-	multiples *= number[index];
+	multiples *= number[count];
 	}
 	return multiples++;
 	}
