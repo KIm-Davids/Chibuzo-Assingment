@@ -92,7 +92,7 @@ public class ArrayKata {
   	}
          return maximum;
 	}
-
+}
 
 
 	public static int noOfOddNumbers(int[] number) {
