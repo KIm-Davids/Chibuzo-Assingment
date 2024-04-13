@@ -34,7 +34,7 @@ public class SemicolonStore {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What did the user buy ?");
 		String userBuy = input.next();
-	         return userBuy;
+	        return userBuy;
                 }
 
 		private static double howManyPieces() {
