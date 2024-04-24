@@ -12,12 +12,17 @@ import java.util.Scanner;
 		int number4 = number1 % 10;
 
 		
-		
-		if (number4 != number2) {
-			System.out.printf("%d%d%d is not a palindrome", number2, number3, number4);
-		}
-		if (number4 == number2) {
-			System.out.printf("%d%d%d is a palindrome", number2, number3, number4);
-		}
+		System.out.print(number1);
+		System.out.print(number2);
+		System.out.print(number3);
+		System.out.print(number4);
+
+
+		//if (number4 != number2) {
+			//System.out.printf("%d%d%d is not a palindrome", number2, number3, number4);
+		//}
+		//if (number4 == number2) {
+			//System.out.printf("%d%d%d is a palindrome", number2, number3, number4);
+		//}
 	}
 }
