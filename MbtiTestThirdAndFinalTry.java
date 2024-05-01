@@ -1130,24 +1130,6 @@ public static void main(String[] args) {
 
 		}
 	
-		
-
-				//I					//N						//F				//J
-		
-		if (selectionA1 < selectionB1 & selectionA2 < selectionB2 & selectionA3 < selectionB3 & selectionA4 > selectionB4)  {
-		System.out.print("""
-		
-		
-		INFJ 
-
-		Seek meaning and connection in ideas, relationships, and material possessions. 
-		Want to understand what motivates people and are insightful about others. 
-		Conscientious and committed to their firm values. 
-		Develop a clear vision about how best to serve the common good. 
-		Organized and decisive in implementing their vision.
-				""");
-
-		}
 
 
 				//I							//S						//F						//P
