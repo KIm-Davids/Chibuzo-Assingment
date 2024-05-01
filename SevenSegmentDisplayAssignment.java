@@ -10,14 +10,7 @@ import java.util.Scanner;
 		
 		System.out.println("Enter binary code");
 		String binaryNumber = input.next();
-	//	int	number = 0;
-	//	int counter = 0;
-		
-	//	for(counter = 0; counter < binaryNumber.length(); counter++) {
-	//		array[counter] = binaryNumber.charAt(counter) - '0';
-	//		number = array[counter];
-			//System.out.print(number);
-		//}	
+	
 		while(binaryNumber.charAt(7) == '1' && binaryNumber.length() <= 8) {
 		if(binaryNumber.charAt(0) == '1') {
 		System.out.print("  AA\n");
@@ -92,28 +85,6 @@ import java.util.Scanner;
 		break;
 	}
 	
-		
-			//for 1
-			
-			
-		
-		
-		
-		
-		//	if(onOrOff == 1) {
-				
-			
-			
-			
-			
-			
-			
-			
-			
-		
-			
-			
-		
 		
 		}
 	}
