@@ -4,7 +4,6 @@ public class MbtiTestThirdAndFinalTry {
 public static void main(String[] args) {
 
 	Scanner scanner = new Scanner(System.in);
-
 	int selectionA1 = 0;
 	int selectionB1 = 0;
 	int selectionA2 = 0;
@@ -13,11 +12,7 @@ public static void main(String[] args) {
 	int selectionB3 = 0;
 	int selectionA4 = 0;
 	int selectionB4 = 0;	
-
-	ArrayList<String> extrovertVsIntrovert = new ArrayList<String>();
 	
-
-
 	System.out.println("What is your name");
 	String name = scanner.nextLine();
 
@@ -52,12 +47,8 @@ public static void main(String[] args) {
 		break;
 	}
 	
-	
-
 	}while(question1 != "A" | question1 != "a" && question1.length() > 0 ) ;
-		
 	
-
 	//question 5
 
 	String question2;
@@ -408,9 +399,6 @@ public static void main(String[] args) {
 	}
 		
 	}while(Question12.charAt(0) != 'A' | Question12.charAt(0) != 'a' && Question12.length() > 0) ;
-
-
-
 
 	String Question13;
 
@@ -1213,144 +1201,6 @@ public static void main(String[] args) {
 		Forceful in presenting their ideas.
 			""");
 		}
-
-
-		
-		
-
-
-
-
-
-
-
-
-
-
-		
-
-
-		// //I
-
-		// if (selectionA1 < selectionB1) {
-		// 	System.out.println("It seems like you're an introvert");
- 		// 	System.out.println("I");
-			
-
-		// }
-		// 	System.out.println();
-
-		// System.out.println("Please press 'A' to continue");
-		// 	loading = scanner.next();
-
-		// System.out.println("For the Second segment of Sensitive 'S' VS Intuitive 'N'\n ");
-		// System.out.println("Number of A selected: " + selectionA2);
-		// System.out.println("Number of B selected: " + selectionB2);
-
-		// 	System.out.println();
-
-		// //S
-	
-		// if (selectionA2 > selectionB2) {
-		// 	System.out.println("It seems like you're an Sensitive");
- 		// 	System.out.println("S");
-
- 		// }
-		// 	System.out.println();
-
-		// //N
-
-
- 		// if (selectionA2 < selectionB2) {
-		// 	System.out.println("It seems like you're Intuitive ");
- 		// 	System.out.println("N");
- 		// }
-
-		// 	System.out.println();
-
-		// 	System.out.println("Please press 'A' to continue");
-		// 	loading = scanner.next();
-			
-
-		// System.out.println("For the Third segment of Thinking 'S' VS Feeling 'N'\n ");
-		// System.out.println("Number of A selected: " + selectionA3);
-		// System.out.println("Number of B selected: " + selectionB3);
-		// 	System.out.println();
-
-		
-		// //T
-
-		// if (selectionA3 > selectionB3) {
-		// 	System.out.println("It seems like you're a Thinker ");
-		// 	System.out.println("T");
-			
-		// }
-		// 	System.out.println();
-
-		// //F
-
- 		// if (selectionA3 < selectionB3) {
-		// 	System.out.println("It seems like you're more of the emotional type ");
- 		// 	System.out.println("F");
- 		// }
-		// 	System.out.println();
-
-
-		// System.out.println("Please press 'A' to continue");
-		// 	loading = scanner.next();
-
-		// System.out.println("For the Last segment of Judging 'S' VS Perceptive 'N'\n ");
-		// System.out.println("Number of A selected: " + selectionA4);
-		// System.out.println("Number of B selected: " + selectionB4);
-
-		// 	System.out.println();
-
-		// //J
-
-	 	// if (selectionA4 > selectionB4) {
-		// 	System.out.println("It seems like you're more of the judging type ");
- 		// 	System.out.println("J");
- 		// }
-		// 		System.out.println();
-
-		// //P
-
-		// if (selectionA4 < selectionB4){
-		// 	System.out.println("It seems like you're more of the perceptive type ");
- 		// 	System.out.println("P");
- 		// }
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 }
