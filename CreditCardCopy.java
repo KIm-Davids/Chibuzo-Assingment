@@ -12,6 +12,7 @@ import java.util.ArrayList;
 		int counter = 0;
 		int result = 0;
 		int[] array = new int[number.length()];
+		int[] secondArray = new int[number.length()];
 		char[] theTwoDigits = new char[3];
 		int multipliedNumber = 0;
 		int collectedNumber = 0;
@@ -20,49 +21,67 @@ import java.util.ArrayList;
 		int theResult = 0;
 		int sumTotal = 0;
 		int oddNumbers = 0;
-
-
-
-
+		int secondTotal = 0;
+		int secondCollectedNumber = 0;
+		int secondResult = 0;
+		int secondSum = 0;
+		int evenTotalNumber = 0;
 
 		for(counter = 0; counter < number.length(); counter+=2) {
-			
+		
 
 			array[counter] = number.charAt(counter) - '0';
+	
 			result = array[counter];
+			
 			total = result * 2;
 
-			if(total % 2 == 1) {
-			oddNumbers += total;
-			}			
-		
-			
-			
-			collectedNumber += total;
-
-			
-			if(total >= 10) {
+		   if(!(total >= 10 && total <=99)){
+		  	collectedNumber += total;
+	
+			}
+				
+			if(total >= 10 && total <= 99) {
 			while(total != 0){
-			int hold = total % 10;
+			int hold =  total % 10;
 			sum = sum + hold;
 			total /= 10;
+                    	
 			}
 			}
-
+                      
 
 
 			System.out.println();
 			
 			sumTotal = collectedNumber + sum;
-			
+			System.out.println(sumTotal);
+
 			
 		}
-			
+
+
+		for(int y = 1; y < number.length(); y+=2) {
 		
-			System.out.println(sumTotal);
+
+			secondArray[y] = number.charAt(y) - '0';
+			secondResult = secondArray[y];
 			
-				
 			
+			secondTotal += secondResult;
+
+                   
+	
+			 if(!(secondTotal >= 10 && secondTotal <=99)){
+				  secondCollectedNumber += secondTotal;
+	
+			}
+			
+		}
+		System.out.println();
+
+		evenTotalNumber = secondTotal + sumTotal;
+		System.out.println(evenTotalNumber);
 		
 		
 
@@ -98,8 +117,8 @@ import java.util.ArrayList;
 		System.out.println("**Credit Card Number: " + number);
 		System.out.println("**Credit Card Digit Length: " + number.length());
 		
-		if(sumTotal % 10 == 0) {
-		System.out.print("**Credit Card Validity Status: Valid");
+		if(evenTotalNumber % 10 == 0) {
+		System.out.println("**Credit Card Validity Status: Valid");
 			}
 		else {
 		System.out.println("**Credit Card Validity Status: Invalid");
@@ -116,7 +135,11 @@ import java.util.ArrayList;
 
 
 		}
-	}	//234319283049582
+	}	
+
+
+		//5399831619690403
+		//234319283049582
 		//5399831619690404
 		//4388576018410707
 		//4388576018402626
